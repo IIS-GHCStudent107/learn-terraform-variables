@@ -116,7 +116,7 @@ module "elb_http" {
 
 module "s3-bucket-p" {
   source  = "app.terraform.io/policy-as-code-training/s3-bucket-p/aws"
-  version = "1.1.0"
+  version = "1.2.0"
   bucket_name = "tf-vault-qa-pk-081126"
   # insert required variables here
 }
